@@ -11,7 +11,6 @@ import java.util.Random;
 @Service
 public class GameService {
 
-    @Async
     public Double playGame(PlayGameInputDto playGameInputDto) {
 
         Random rand = new Random();

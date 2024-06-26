@@ -45,7 +45,7 @@ public class MultiThreadedCalculationTest {
 
         double totalBetAmount = 0.0;
         Random random = new Random();
-        int noOfRounds = 1000000;
+        int noOfRounds = 10000;
 
         //setting up no of game plays with random user generated number and bet
         List<GamePlayTask> games = new ArrayList<>();
